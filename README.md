@@ -178,78 +178,43 @@ If there is no rain, the corn dies. If there is a lot of rain, there is a lot of
  </tr>
  
  <tr>
-  <td style="text-align:center;"><b>HUMAN Question For Chat-GPT</b></td>
-  <td style="text-align:center;"><b>HUMAN Question For Chat-GPT</b></td>
-   <td style="text-align:center;"><b>HUMAN Question For Chat-GPT</b></td>
+  <td style="text-align:center;"><b>Multilingual Support  : English</b></td>
+  <td style="text-align:center;"><b>Multilingual Support  : French</b></td>
+   <td style="text-align:center;"><b>Multilingual Support : Dutch</b></td>
 </tr>
 
 <tr>
   <td>
 
-https://user-images.githubusercontent.com/33378412/235372728-45d18452-aa7e-4101-a5b3-8933b508b392.mp4
+
+https://user-images.githubusercontent.com/33378412/235579386-368bddcc-4cb1-42bb-b6fb-241a71273c30.mp4
 
 
   </td>
   <td>
   
 
-https://user-images.githubusercontent.com/33378412/235372781-a8909270-f541-4c16-99d1-461830c64165.mp4
+https://user-images.githubusercontent.com/33378412/235579023-359decbf-d27d-4c69-a5e6-0fe749ea15a8.mp4
 
 
   </td>              
   <td>
   
-
-https://user-images.githubusercontent.com/33378412/235372746-ccf3886a-d4e6-423a-bb1b-5322d8524d44.mp4
+https://user-images.githubusercontent.com/33378412/235579052-5cbe64e3-c171-4c99-8667-44b325d2ba2d.mp4
 
 
   </td>
 </tr>
 <tr>
-  <td width=25% style="text-align:center;color:gray;">Describe the sound of the battlefiled</td>
-  <td width=25% style="text-align:center;">Describe what does a pop music sound</td>
-  <td width=25% style="text-align:center;">Describe the sound of the outer space</td>
+  <td width=25% style="text-align:center;color:gray;">Dark clouds were in the sky. The sun went down. The weather got cold. The wind started to blow.
+ Leaves blew off the trees. Paper flew through the air. People buttoned their jackets. 
+The rain started to fall. At first, it was quiet. Then it got louder</td>
+  <td width=25% style="text-align:center;">Un arcoíris o arco iris es un fenómeno óptico y meteorológico que consiste en la aparición en el cielo de un arco de luz multicolor</td>
+  <td width=25% style="text-align:center;"Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande</td>
 
  
 </tr>
 
-
- <tr>
-  <td style="text-align:center;"><b>
-Simplified Chat-GPT Answer</b></td>
-  <td style="text-align:center;"><b>
-Simplified Chat-GPT Answer</b></td>
-   <td style="text-align:center;"><b>
-Simplified Chat-GPT Answer</b></td>
-</tr>
-
-<tr>
-<td>
-  
-https://user-images.githubusercontent.com/33378412/235373177-81b5c1cf-faf8-4a11-88b8-a7f47c711454.mp4
-
-</td>
- <td>
- 
-
-https://user-images.githubusercontent.com/33378412/235373101-ed2c0abe-5ab0-493b-9cd3-b6ff3c24ee57.mp4
-
-  </td>
-  <td>
-  
-
-https://user-images.githubusercontent.com/33378412/235372996-4453711c-c4eb-4a2b-aa82-627f45461558.mp4
-
-  
-  </td>              
-
-</tr>
-<tr>
-  <td width=25% style="text-align:center">Loud and chaotic. Hum and buzz of machinery such as power tools, high fidelity. Clanking and clattering of metal parts, the whirring of motors and engines, and the beeping and alarms of various instruments</td>
-  <td width=25% style="text-align:center;">Pop music that upbeat, catchy, and easy to listen, high fidelity, with simple melodies, electronic instruments and polished production</td>
-  <td width=25% style="text-align:center;">The steady crashing of waves against the shore,high fidelity, the whooshing sound of water receding back into the ocean, the sound of seagulls and other coastal birds, and the distant sound of ships or boats</td>
-
-</tr>
 
 </table>
 
@@ -264,12 +229,9 @@ https://user-images.githubusercontent.com/33378412/235372996-4453711c-c4eb-4a2b-
     $ tts --list_models
     ```
 - Get model info (for both tts_models and vocoder_models):
-    - Query by type/name:
-       
-        For example:
 
-        ```
-        $ tts --model_info_by_name tts_models/tr/common-voice/glow-tts
+       ```
+       $ tts --model_info_by_name tts_models/tr/common-voice/glow-tts
         ```
         ```
         $ tts --model_info_by_name vocoder_models/en/ljspeech/hifigan_v2
@@ -292,6 +254,7 @@ https://user-images.githubusercontent.com/33378412/235372996-4453711c-c4eb-4a2b-
     ```
     $ tts --text "Text for TTS" --out_path output/path/speech.wav --model_path path/to/model.pth --config_path path/to/config.json --speakers_file_path path/to/speaker.json --speaker_idx <speaker_id>
     ```
+
 
 ## Directory Structure
 ```
