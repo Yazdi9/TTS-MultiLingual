@@ -210,7 +210,7 @@ https://user-images.githubusercontent.com/33378412/235579052-5cbe64e3-c171-4c99-
  Leaves blew off the trees. Paper flew through the air. People buttoned their jackets. 
 The rain started to fall. At first, it was quiet. Then it got louder</td>
   <td width=25% style="text-align:center;">Un arcoíris o arco iris es un fenómeno óptico y meteorológico que consiste en la aparición en el cielo de un arco de luz multicolor</td>
-  <td width=25% style="text-align:center;"Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande</td>
+  <td width=25% style="text-align:center;">Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande</td>
 
  
 </tr>
