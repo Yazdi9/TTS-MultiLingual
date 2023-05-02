@@ -1,149 +1,18 @@
 
 
-## 🐸Coqui.ai News
-- 📣 Coqui Studio API is landed on 🐸TTS. You can use the studio voices in combination with 🐸TTS models. [Example](https://github.com/coqui-ai/TTS/edit/dev/README.md#-python-api)
-- 📣 Voice generation with prompts - **Prompt to Voice** - is live on Coqui.ai!! [Blog Post](https://coqui.ai/blog/tts/prompt-to-voice)
-- 📣 Clone your voice with a single click on [🐸Coqui.ai](https://app.coqui.ai/auth/signin)
-<br>
+## Text To Speech (TTS) With Gradio Plugin 
 
-## <img src="https://raw.githubusercontent.com/coqui-ai/TTS/main/images/coqui-log-green-TTS.png" height="56"/>
-
-
-🐸TTS is a library for advanced Text-to-Speech generation. It's built on the latest research, was designed to achieve the best trade-off among ease-of-training, speed and quality.
-🐸TTS comes with pretrained models, tools for measuring dataset quality and already used in **20+ languages** for products and research projects.
-
-[![Dicord](https://img.shields.io/discord/1037326658807533628?color=%239B59B6&label=chat%20on%20discord)](https://discord.gg/5eXr5seRrv)
-[![License](<https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg>)](https://opensource.org/licenses/MPL-2.0)
-[![PyPI version](https://badge.fury.io/py/TTS.svg)](https://badge.fury.io/py/TTS)
-[![Covenant](https://camo.githubusercontent.com/7d620efaa3eac1c5b060ece5d6aacfcc8b81a74a04d05cd0398689c01c4463bb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e7472696275746f72253230436f76656e616e742d76322e3025323061646f707465642d6666363962342e737667)](https://github.com/coqui-ai/TTS/blob/master/CODE_OF_CONDUCT.md)
-[![Downloads](https://pepy.tech/badge/tts)](https://pepy.tech/project/tts)
-[![DOI](https://zenodo.org/badge/265612440.svg)](https://zenodo.org/badge/latestdoi/265612440)
-
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/aux_tests.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/data_tests.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/docker.yaml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/inference_tests.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/style_check.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/text_tests.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/tts_tests.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/vocoder_tests.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/zoo_tests0.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/zoo_tests1.yml/badge.svg)
-![GithubActions](https://github.com/coqui-ai/TTS/actions/workflows/zoo_tests2.yml/badge.svg)
-[![Docs](<https://readthedocs.org/projects/tts/badge/?version=latest&style=plastic>)](https://tts.readthedocs.io/en/latest/)
-
-📰 [**Subscribe to 🐸Coqui.ai Newsletter**](https://coqui.ai/?subscription=true)
-
-📢 [English Voice Samples](https://erogol.github.io/ddc-samples/) and [SoundCloud playlist](https://soundcloud.com/user-565970875/pocket-article-wavernn-and-tacotron2)
-
-📄 [Text-to-Speech paper collection](https://github.com/erogol/TTS-papers)
-
-<img src="https://static.scarf.sh/a.png?x-pxid=cf317fe7-2188-4721-bc01-124bb5d5dbb2" />
-
-## 💬 Where to ask questions
-Please use our dedicated channels for questions and discussion. Help is much more valuable if it's shared publicly so that more people can benefit from it.
-
-| Type                            | Platforms                               |
-| ------------------------------- | --------------------------------------- |
-| 🚨 **Bug Reports**              | [GitHub Issue Tracker]                  |
-| 🎁 **Feature Requests & Ideas** | [GitHub Issue Tracker]                  |
-| 👩‍💻 **Usage Questions**          | [GitHub Discussions]                    |
-| 🗯 **General Discussion**       | [GitHub Discussions] or [Discord]   |
-
-[github issue tracker]: https://github.com/coqui-ai/tts/issues
-[github discussions]: https://github.com/coqui-ai/TTS/discussions
-[discord]: https://discord.gg/5eXr5seRrv
-[Tutorials and Examples]: https://github.com/coqui-ai/TTS/wiki/TTS-Notebooks-and-Tutorials
-
-
-## 🔗 Links and Resources
-| Type                            | Links                               |
-| ------------------------------- | --------------------------------------- |
-| 💼 **Documentation**              | [ReadTheDocs](https://tts.readthedocs.io/en/latest/)
-| 💾 **Installation**               | [TTS/README.md](https://github.com/coqui-ai/TTS/tree/dev#install-tts)|
-| 👩‍💻 **Contributing**               | [CONTRIBUTING.md](https://github.com/coqui-ai/TTS/blob/main/CONTRIBUTING.md)|
-| 📌 **Road Map**                   | [Main Development Plans](https://github.com/coqui-ai/TTS/issues/378)
-| 🚀 **Released Models**            | [TTS Releases](https://github.com/coqui-ai/TTS/releases) and [Experimental Models](https://github.com/coqui-ai/TTS/wiki/Experimental-Released-Models)|
-
-## 🥇 TTS Performance
-<p align="center"><img src="https://raw.githubusercontent.com/coqui-ai/TTS/main/images/TTS-performance.png" width="800" /></p>
-
-Underlined "TTS*" and "Judy*" are 🐸TTS models
-<!-- [Details...](https://github.com/coqui-ai/TTS/wiki/Mean-Opinion-Score-Results) -->
-
-## Features
-- High-performance Deep Learning models for Text2Speech tasks.
-    - Text2Spec models (Tacotron, Tacotron2, Glow-TTS, SpeedySpeech).
-    - Speaker Encoder to compute speaker embeddings efficiently.
-    - Vocoder models (MelGAN, Multiband-MelGAN, GAN-TTS, ParallelWaveGAN, WaveGrad, WaveRNN)
-- Fast and efficient model training.
-- Detailed training logs on the terminal and Tensorboard.
-- Support for Multi-speaker TTS.
-- Efficient, flexible, lightweight but feature complete `Trainer API`.
-- Released and ready-to-use models.
-- Tools to curate Text2Speech datasets under```dataset_analysis```.
-- Utilities to use and test your models.
-- Modular (but not too much) code base enabling easy implementation of new ideas.
-
-## Implemented Models
-### Spectrogram models
-- Tacotron: [paper](https://arxiv.org/abs/1703.10135)
-- Tacotron2: [paper](https://arxiv.org/abs/1712.05884)
-- Glow-TTS: [paper](https://arxiv.org/abs/2005.11129)
-- Speedy-Speech: [paper](https://arxiv.org/abs/2008.03802)
-- Align-TTS: [paper](https://arxiv.org/abs/2003.01950)
-- FastPitch: [paper](https://arxiv.org/pdf/2006.06873.pdf)
-- FastSpeech: [paper](https://arxiv.org/abs/1905.09263)
-- FastSpeech2: [paper](https://arxiv.org/abs/2006.04558)
-- SC-GlowTTS: [paper](https://arxiv.org/abs/2104.05557)
-- Capacitron: [paper](https://arxiv.org/abs/1906.03402)
-- OverFlow: [paper](https://arxiv.org/abs/2211.06892)
-- Neural HMM TTS: [paper](https://arxiv.org/abs/2108.13320)
-
-### End-to-End Models
-- VITS: [paper](https://arxiv.org/pdf/2106.06103)
-- YourTTS: [paper](https://arxiv.org/abs/2112.02418)
-
-### Attention Methods
-- Guided Attention: [paper](https://arxiv.org/abs/1710.08969)
-- Forward Backward Decoding: [paper](https://arxiv.org/abs/1907.09006)
-- Graves Attention: [paper](https://arxiv.org/abs/1910.10288)
-- Double Decoder Consistency: [blog](https://erogol.com/solving-attention-problems-of-tts-models-with-double-decoder-consistency/)
-- Dynamic Convolutional Attention: [paper](https://arxiv.org/pdf/1910.10288.pdf)
-- Alignment Network: [paper](https://arxiv.org/abs/2108.10447)
-
-### Speaker Encoder
-- GE2E: [paper](https://arxiv.org/abs/1710.10467)
-- Angular Loss: [paper](https://arxiv.org/pdf/2003.11982.pdf)
-
-### Vocoders
-- MelGAN: [paper](https://arxiv.org/abs/1910.06711)
-- MultiBandMelGAN: [paper](https://arxiv.org/abs/2005.05106)
-- ParallelWaveGAN: [paper](https://arxiv.org/abs/1910.11480)
-- GAN-TTS discriminators: [paper](https://arxiv.org/abs/1909.11646)
-- WaveRNN: [origin](https://github.com/fatchord/WaveRNN/)
-- WaveGrad: [paper](https://arxiv.org/abs/2009.00713)
-- HiFiGAN: [paper](https://arxiv.org/abs/2010.05646)
-- UnivNet: [paper](https://arxiv.org/abs/2106.07889)
-
-### Voice Conversion
-- FreeVC: [paper](https://arxiv.org/abs/2210.15418)
-
-You can also help us implement more models.
 
 ## Install TTS
-🐸TTS is tested on Ubuntu 18.04 with **python >= 3.7, < 3.11.**.
-
-If you are only interested in [synthesizing speech](https://tts.readthedocs.io/en/latest/inference.html) with the released 🐸TTS models, installing from PyPI is the easiest option.
 
 ```bash
 pip install TTS
 ```
 
-If you plan to code or train models, clone 🐸TTS and install it locally.
+If you plan to code or train models, clone TTS and install it locally.
 
 ```bash
-git clone https://github.com/coqui-ai/TTS
+git clone https://github.com/saba99/TTS-MultiLingual
 pip install -e .[all,dev,notebooks]  # Select the relevant extras
 ```
 
@@ -154,24 +23,7 @@ $ make system-deps  # intended to be used on Ubuntu (Debian). Let us know if you
 $ make install
 ```
 
-If you are on Windows, 👑@GuyPaddock wrote installation instructions [here](https://stackoverflow.com/questions/66726331/how-can-i-run-mozilla-tts-coqui-tts-training-with-cuda-on-a-windows-system).
-
-
-## Docker Image
-You can also try TTS without install with the docker image.
-Simply run the following command and you will be able to run TTS without installing it.
-
-```bash
-docker run --rm -it -p 5002:5002 --entrypoint /bin/bash ghcr.io/coqui-ai/tts-cpu
-python3 TTS/server/server.py --list_models #To get the list of available models
-python3 TTS/server/server.py --model_name tts_models/en/vctk/vits # To start a server
-```
-
-You can then enjoy the TTS server [here](http://[::1]:5002/)
-More details about the docker images (like GPU support) can be found [here](https://tts.readthedocs.io/en/latest/docker_images.html)
-
-
-## Synthesizing speech by 🐸TTS
+## Synthesizing speech by TTS
 
 ### 🐍 Python API
 
@@ -180,12 +32,12 @@ from TTS.api import TTS
 
 # Running a multi-speaker and multi-lingual model
 
-# List available 🐸TTS models and choose the first one
+# List available TTS models and choose the first one
 model_name = TTS.list_models()[0]
 # Init TTS
 tts = TTS(model_name)
 # Run TTS
-# ❗ Since this model is multi-speaker and multi-lingual, we must set the target speaker and the language
+# Since this model is multi-speaker and multi-lingual, we must set the target speaker and the language
 # Text to speech with a numpy output
 wav = tts.tts("This is a test! This is also a test!!", speaker=tts.speakers[0], language=tts.languages[0])
 # Text to speech to a file
@@ -211,7 +63,7 @@ tts = TTS(model_name="voice_conversion_models/multilingual/vctk/freevc24", progr
 tts.voice_conversion_to_file(source_wav="my/source.wav", target_wav="my/target.wav", file_path="output.wav")
 
 # Example voice cloning by a single speaker TTS model combining with the voice conversion model. This way, you can
-# clone voices by using any model in 🐸TTS.
+# clone voices by using any model in TTS.
 
 tts = TTS("tts_models/de/thorsten/tacotron2-DDC")
 tts.tts_with_vc_to_file(
@@ -220,8 +72,8 @@ tts.tts_with_vc_to_file(
     file_path="ouptut.wav"
 )
 
-# Example text to speech using [🐸Coqui Studio](https://coqui.ai) models. You can use all of your available speakers in the studio.
-# [🐸Coqui Studio](https://coqui.ai) API token is required. You can get it from the [account page](https://coqui.ai/account).
+# Example text to speech using [Coqui Studio](https://coqui.ai) models. You can use all of your available speakers in the studio.
+# [Coqui Studio](https://coqui.ai) API token is required. You can get it from the [account page](https://coqui.ai/account).
 # You should set the `COQUI_STUDIO_TOKEN` environment variable to use the API token.
 
 # If you have a valid API token set you will see the studio speakers as separate models in the list.
